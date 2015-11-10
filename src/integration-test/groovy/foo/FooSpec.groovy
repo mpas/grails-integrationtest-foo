@@ -6,6 +6,7 @@ import grails.transaction.*
 import spock.lang.*
 
 @Integration
+@Rollback
 class FooSpec extends Specification {
 
     def setup() {
